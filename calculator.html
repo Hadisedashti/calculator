@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+   </head>
+<body class="flex items-center justify-center h-screen w-full">
+    <div class="flex flex-col gap-5 itmes-center justify-center rounded-lg bg-gray-400 w-64 h-80 p-5">
+        <textarea rows="3" name="" id="" class="resize-none rounded-lg"></textarea>
+        <div class="grid grid-cols-3 gap-6">
+          <div class="flex flex-col gap-3">
+              <div class="bg-sky-300 rounded-full text-center">0</div>
+              <div class="bg-sky-300 rounded-full text-center">1</div>
+              <div class="bg-sky-300 rounded-full text-center">2</div>
+              <div class="bg-sky-300 rounded-full text-center">3 </div>
+              <div class="bg-sky-300 rounded-full text-center">4</div>
+         </div>
+            <div class="flex flex-col gap-3">
+                <div class="bg-sky-300 rounded-full text-center">5</div>
+                <div class="bg-sky-300 rounded-full text-center">6 </div>
+                <div class="bg-sky-300 rounded-full text-center">7</div>
+                <div class="bg-sky-300 rounded-full text-center">8</div>
+                <div class="bg-sky-300 rounded-full text-center">9</div>
+            </div>
+           
+            <div class="flex flex-col gap-3">
+                <div class="bg-amber-200 rounded-full text-center">+ </div>
+                <div class="bg-amber-200 rounded-full text-center">-</div>
+                <div class="bg-amber-200 rounded-full text-center">*</div>
+                <div class="bg-amber-200 rounded-full text-center">/</div>
+                <div class="bg-amber-200 rounded-full text-center">=</div>
+            </div>
+        </div>
+    </div>
     <script src="./calculator.js"></script>
-</head>
-<body>
-    
 </body>
 </html>
