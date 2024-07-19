@@ -9,4 +9,5 @@ function mosavi (){
 function mosavi (){
     let result = document.getElementById("text").value
     let count = result.length
+    let operator =result.indexOf("*")+1
 }
